@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+$flexSize: 15em;
+$columnWidth: $flexSize * 1.8;
+$boxSpacing: 1.6em;
+$colorText: #404646;
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14.5px;
+  line-height: 1.4em;
+  color: $colorText;
+}
+
+* {
+  box-sizing: border-box;
+}

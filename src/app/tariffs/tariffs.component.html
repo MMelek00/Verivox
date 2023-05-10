@@ -1,0 +1,40 @@
+<select [(ngModel)]="selectedtype">
+  <option *ngFor="let type of sort">{{ type }}</option>
+</select>
+<select [(ngModel)]="selectedorder">
+  <option *ngFor="let type of orderby">{{ type }}</option>
+</select>
+<button label="sort" (click)="sortdata(selectedtype, selectedorder)">
+  Sort
+</button>
+<div *ngFor="let tariff of tariffsList" class="card">
+  <div class="card__id">
+    {{ tariff.id }}
+  </div>
+  <div class="card__tariff-container">
+    <h2>{{ tariff.name }}</h2>
+  </div>
+  <div class="content">
+    <h4>Download</h4>
+    <div class="img-container">
+      <img src="../../assets/arrow_upward.svg" alt="arrow_upward" />
+      <h6 class="price-container">{{ tariff.download }} Mbit/s</h6>
+    </div>
+    <h4>upload</h4>
+    <div class="upload-Block">
+      <img src="../../assets/arrow_downward.svg" alt="arrow_downward" />
+      <h6 class="price-container">{{ tariff.upload }} Mbit/s</h6>
+    </div>
+  </div>
+  <ul>
+    <li *ngFor="let benefits of tariff.benefits">{{ benefits }}</li>
+  </ul>
+
+  <div class="tariff-container">
+    <h3>{{ tariff.price }} $</h3>
+    <button>
+      <a>To tariff</a>
+      <img src="../../assets/chevron_right.svg" alt="arrow_downward" />
+    </button>
+  </div>
+</div>

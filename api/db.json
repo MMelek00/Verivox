@@ -1,0 +1,36 @@
+{
+  "tariffs": [
+    {
+      "id": 1,
+      "name": "tariff 1",
+      "download": 12,
+      "upload": 6,
+      "price": 123.45,
+      "benefits": ["tarif benefit 1", "tarif benefit 2", "tarif benefit 3"]
+    },
+    {
+      "id": 2,
+      "name": "tariff 2",
+      "download": 13,
+      "upload": 7,
+      "price": 152.12,
+      "benefits": ["tarif benefit 1", "tarif benefit 2", "tarif benefit 3"]
+    },
+    {
+      "id": 3,
+      "name": "tariff 3",
+      "download": 14,
+      "upload": 8,
+      "price": 172.23,
+      "benefits": ["tarif benefit 1", "tarif benefit 2", "tarif benefit 3"]
+    },
+    {
+      "id": 4,
+      "name": "tariff 4",
+      "download": 16,
+      "upload": 10,
+      "price": 234.35,
+      "benefits": ["tarif benefit 1", "tarif benefit 2", "tarif benefit 3"]
+    }
+  ]
+}
