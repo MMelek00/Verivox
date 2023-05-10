@@ -54,7 +54,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Screenshots
 
 <p float="left">
-  <img src="docs/assets/screenshots/Screenshot1.png" width="500" title="DesktopView">
-  <img src="docs/assets/screenshots/Screenshot2.png" width="500" title="TabletView">
-  <img src="docs/assets/screenshots/Screenshot3.png" width="500" title="PhoneView">
+  <img src="src/assets/Screenshot1.png" width="500" title="DesktopView">
+  <img src="src/assets/Screenshot2.png" width="500" title="TabletView">
+  <img src="src/assets/Screenshot3.png" width="500" title="PhoneView">
 </p>
